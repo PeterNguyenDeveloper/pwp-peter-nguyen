@@ -1,5 +1,6 @@
 import './App.css'
 import {CodeExample} from "./CodeExample.tsx";
+import {InfoBoxGroup} from "./InfoBoxGroup.tsx";
 
 export default function App() {
     return (
@@ -28,50 +29,33 @@ export default function App() {
                                placeholder={"Email Address"}/>
                         <button className={'bg-orange-400 p-2'}>Press</button>
                     </div>
-                    <h1>
+                    <h1 className={'text-3xl'}>
                         Example Contact Form
                     </h1>
-                    <p>
+                    <p className={'text-xl'}>
                         Requires name attribute
                     </p>
                     <CodeExample/>
-                    <h1>
+                    <h1 className={'text-3xl'}>
                         Add Access Key
                     </h1>
-                    <p>
+                    <p className={'text-xl'}>
                         Replace value with your access key
                     </p>
                     <CodeExample/>
-                    <h1>
+                    <h1 className={'text-3xl'}>
                         That's it!
                     </h1>
-                    <p>
+                    <p className={'text-xl'}>
                         You will now receive emails
                     </p>
-                    <h1>
+                    <h1 className={'text-3xl'}>
                         FAQ
                     </h1>
-                    <p>
-                        Information
+                    <p className={'text-xl'}>
+                        Common questions
                     </p>
-                    <p>
-                        Information
-                    </p>
-                    <p>
-                        Information
-                    </p>
-                    <p>
-                        Information
-                    </p>
-                    <p>
-                        Information
-                    </p>
-                    <p>
-                        Information
-                    </p>
-                    <p>
-                        Information
-                    </p>
+                    <InfoBoxGroup/>
                     <div className={'bg-red-500 max-w-[500px] h-fit mx-auto p-4 gap-4 flex flex-col'}>
                         <h1>
                             Get Started!
@@ -85,7 +69,7 @@ export default function App() {
                     </div>
                     <footer className={'bg-green-600 h-[200px] flex items-center'}>
                         <p className={'text-4xl mx-auto'}>
-                           Site Map
+                            Site Map
                         </p>
                     </footer>
                 </section>
