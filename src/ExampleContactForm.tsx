@@ -12,7 +12,8 @@ export function ExampleContactForm() {
                 method="POST"
             >
                 <div>
-                    <label htmlFor="email" className="block text-lg font-medium text-gray-700">Email</label>
+                    <label htmlFor="email"
+                           className="block text-lg font-medium text-gray-700">Email</label>
                     <input
                         type="email"
                         name="email"
@@ -23,9 +24,9 @@ export function ExampleContactForm() {
                         placeholder="you@example.com"
                     />
                 </div>
-
                 <div>
-                    <label htmlFor="message" className="block text-lg font-medium text-gray-700">Message</label>
+                    <label htmlFor="message"
+                           className="block text-lg font-medium text-gray-700">Message</label>
                     <textarea
                         name="message"
                         id="message"
@@ -34,9 +35,9 @@ export function ExampleContactForm() {
                         placeholder="Enter your message here..."
                     />
                 </div>
-
-                <input type="checkbox" name="botcheck" className="hidden" />
-
+                <input type="checkbox"
+                       name="botcheck"
+                       className="hidden"/>
                 <button
                     type="submit"
                     className="mt-6 py-3 px-6 bg-teal-500 text-white font-semibold rounded-lg shadow-md hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"

@@ -22,6 +22,9 @@ export default function App() {
                     <h2 className="mt-4 text-3xl font-semibold text-white">Step 1.</h2>
                     <p className="mt-2 mb-4 text-lg text-teal-100">Replace "youremail@gmail.com" with your email</p>
                     <CodeExample/>
+                    <h2 className="mt-4 text-3xl font-semibold text-white">Step 2.</h2>
+                    <p className="mt-2 mb-4 text-lg text-teal-100">Make sure each input attribute has a name="unique_name" attribute</p>
+                    <CodeExample/>
                     <h2 className="mt-4 text-3xl font-semibold text-white">That's it!</h2>
                     <p className="mt-2 mb-4 text-lg text-teal-100">You will now receive emails</p>
                     <ExampleContactForm/>
