@@ -21,7 +21,7 @@ export function RedirectFormExample(): JSX.Element {
             message
         };
 
-        fetch('https://form-email-r8oy.onrender.com/ian.minami.02@gmail.com', {
+        fetch(`https://onelineforms.com/${email}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
