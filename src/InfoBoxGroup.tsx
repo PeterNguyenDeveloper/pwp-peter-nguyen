@@ -3,7 +3,7 @@ export function InfoBoxGroup(){
     const faqData = [
         {
             question: "Is the service free?",
-            answer: "Yes, ABCWebForms offers a free plan with 50 submissions/day and basic features. Upgrade for more submissions and advanced features."
+            answer: "Yes, OneLineForms offers a free plan with 50 submissions/day and basic features. Upgrade for more submissions and advanced features."
         },
         {
             question: "What are the limits of the free plan?",
@@ -14,7 +14,7 @@ export function InfoBoxGroup(){
             answer: "Contact support at PeterNguyenDeveloper@gmail.com"
         },
         {
-            question: "How is ABCWebForms different?",
+            question: "How is OneLineForms different?",
             answer: "We focus on privacy by not storing submission data. Our free plan offers higher limits. Upgrade for advanced features."
         },
         {
@@ -22,7 +22,7 @@ export function InfoBoxGroup(){
             answer: "We store only your email to send submissions. User data is never stored. Server logs are deleted periodically."
         },
         {
-            question: "Is ABCWebForms GDPR compliant?",
+            question: "Is OneLineForms GDPR compliant?",
             answer: "Yes, we comply with GDPR. We don’t collect personal data and don’t share form submissions. See our Privacy Policy for details."
         }
     ];

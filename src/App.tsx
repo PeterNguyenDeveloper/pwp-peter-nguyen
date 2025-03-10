@@ -10,11 +10,11 @@ export default function App() {
                 <section className="bg-teal-600 text-center py-16 px-4 sm:px-8 rounded-lg shadow-xl">
                     <div className="flex justify-center items-center space-x-4">
                         <img
-                            src="/src/assets/react.svg"
+                            src="/react.svg"
                             alt="Company Icon"
                             className="w-12 h-12"
                         />
-                        <h1 className="text-4xl font-bold text-white">ABCWebForms</h1>
+                        <h1 className="text-4xl font-bold text-white">OneLineForms</h1>
                     </div>
                     <h2 className="mt-4 text-3xl font-semibold text-white">Submit your HTML forms</h2>
                     <p className="mt-2 mb-4 text-lg text-teal-100">No backend</p>
