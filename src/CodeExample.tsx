@@ -3,7 +3,7 @@ import 'highlight.js/styles/github.css';
 import { useState } from "react";
 
 export function CodeExample() {
-    const codeString = `<form action="https://form-email-r8oy.onrender.com/youremail@gmail.com" method="POST">
+    const codeString = `<form action="https://onelineforms.com/youremail@gmail.com" method="POST">
 
     <!-- Form Inputs. Each input must have a name="" attribute -->
     <input type="text" name="name" required>

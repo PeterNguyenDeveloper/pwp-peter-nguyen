@@ -7,7 +7,7 @@ export function ExampleContactForm() {
         <div className="max-w-[400px] mx-auto text-gray-900 p-6 bg-white rounded-lg shadow-lg">
             <h1 className="text-3xl font-semibold text-gray-800 text-center">Example Contact Form</h1>
             <form
-                action={`https://form-email-r8oy.onrender.com/${email}`}
+                action={`https://onelineforms.com/${email}`}
                 className="flex flex-col gap-6 mt-6"
                 method="POST"
             >
