@@ -1,79 +1,35 @@
-import './App.css'
-import {CodeExample} from "./CodeExample.tsx";
-import {InfoBoxGroup} from "./InfoBoxGroup.tsx";
+import './App.css';
+import { CodeExample } from "./CodeExample.tsx";
+import { InfoBoxGroup } from "./InfoBoxGroup.tsx";
+import { ExampleContactForm } from "./ExampleContactForm.tsx";
 
 export default function App() {
     return (
-        <section className={'bg-gray-700'}>
-            <section className={'mx-auto max-w-[1000px] text-white'}>
-                <section className={'bg-blue-600 text-center h-fit'}>
-                    <div className={'bg-red-500 flex items-center'}>
-                        <img src="/src/assets/react.svg"
-                             alt="Company Icon"/>
-                        <h1 className={'text-2xl'}>
-                            ABCWebForms
-                        </h1>
+        <section className="bg-gray-50 min-h-screen">
+            <section className="mx-auto max-w-[1000px] text-gray-900">
+                <section className="bg-teal-600 text-center py-16 px-4 sm:px-8 rounded-lg shadow-xl">
+                    <div className="flex justify-center items-center space-x-4">
+                        <img
+                            src="/src/assets/react.svg"
+                            alt="Company Icon"
+                            className="w-12 h-12"
+                        />
+                        <h1 className="text-4xl font-bold text-white">ABCWebForms</h1>
                     </div>
-                    <h1 className={'text-3xl'}>
-                        Submit your HTML forms
-                    </h1>
-                    <p className={'text-xl'}>
-                        No backend
-                    </p>
-                    <button className={'bg-orange-400 p-4 rounded-2xl'}>
-                        Create your Access Key
-                    </button>
+                    <h2 className="mt-4 text-3xl font-semibold text-white">Submit your HTML forms</h2>
+                    <p className="mt-2 text-lg text-teal-100">No backend</p>
                     <CodeExample/>
-                    <div className={'bg-gray-700 flex flex-col p-4 gap-4 max-w-[500px] mx-auto'}>
-                        <input className={'bg-gray-500 p-2 outline-0'}
-                               placeholder={"Email Address"}/>
-                        <button className={'bg-orange-400 p-2'}>Press</button>
-                    </div>
-                    <h1 className={'text-3xl'}>
-                        Example Contact Form
-                    </h1>
-                    <p className={'text-xl'}>
-                        Requires name attribute
-                    </p>
+                    <h2 className="mt-4 text-3xl font-semibold text-white">Step 1.</h2>
+                    <p className="mt-2 text-lg text-teal-100">Replace "youremail@gmail.com" with your email</p>
                     <CodeExample/>
-                    <h1 className={'text-3xl'}>
-                        Add Access Key
-                    </h1>
-                    <p className={'text-xl'}>
-                        Replace value with your access key
-                    </p>
-                    <CodeExample/>
-                    <h1 className={'text-3xl'}>
-                        That's it!
-                    </h1>
-                    <p className={'text-xl'}>
-                        You will now receive emails
-                    </p>
-                    <h1 className={'text-3xl'}>
-                        FAQ
-                    </h1>
-                    <p className={'text-xl'}>
-                        Common questions
-                    </p>
+                    <h2 className="mt-4 text-3xl font-semibold text-white">That's it!</h2>
+                    <p className="mt-2 text-lg text-teal-100">You will now receive emails</p>
+                    <ExampleContactForm/>
+                    <h2 className="mt-4 text-3xl font-semibold text-white">FAQ</h2>
+                    <p className="mt-2 text-lg text-teal-100">Common questions</p>
                     <InfoBoxGroup/>
-                    <div className={'bg-red-500 max-w-[500px] h-fit mx-auto p-4 gap-4 flex flex-col'}>
-                        <h1>
-                            Get Started!
-                        </h1>
-                        <p>
-                            Power your contact forms
-                        </p>
-                        <button className={'bg-orange-400 p-2'}>
-                            Create your Access Key
-                        </button>
-                    </div>
-                    <footer className={'bg-green-600 h-[200px] flex items-center'}>
-                        <p className={'text-4xl mx-auto'}>
-                            Site Map
-                        </p>
-                    </footer>
                 </section>
             </section>
         </section>
-    )
+    );
 }

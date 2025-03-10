@@ -10,16 +10,12 @@ export function InfoBoxGroup(){
             answer: "The free plan includes 50 submissions/day and basic features. Upgrade for more submissions and advanced options."
         },
         {
-            question: "My Access Key is public. What should I do?",
-            answer: "The Access Key is safe to use publicly and acts as an alias to your email. Pro users can enable Trusted Domains for extra security."
-        },
-        {
             question: "My contact form isn't working. What should I do?",
-            answer: "Check our Troubleshooting guide for common issues. If problems persist, contact support."
+            answer: "Contact support at PeterNguyenDeveloper@gmail.com"
         },
         {
             question: "How is ABCWebForms different?",
-            answer: "We focus on privacy by not storing submission data. Our free plan offers higher limits, custom redirection, and free CAPTCHA. Upgrade for advanced features."
+            answer: "We focus on privacy by not storing submission data. Our free plan offers higher limits. Upgrade for advanced features."
         },
         {
             question: "Is my data safe?",

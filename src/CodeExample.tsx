@@ -1,12 +1,9 @@
 import Highlight from 'react-highlight'
 import 'highlight.js/styles/github.css';
-import {useState} from "react";
+import { useState } from "react";
 
 export function CodeExample() {
-    const codeString = `<form action="https://abcwebforms.com/submit" method="POST">
-
-    <!-- Replace with your Access Key -->
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+    const codeString = `<form action="https://form-email-r8oy.onrender.com/youremail@gmail.com" method="POST">
 
     <!-- Form Inputs. Each input must have a name="" attribute -->
     <input type="text" name="name" required>
@@ -18,9 +15,10 @@ export function CodeExample() {
 
     <button type="submit">Submit Form</button>
 
-</form>`
+</form>`;
 
     const [animCopy, setAnimCopy] = useState(false);
+
     const handleCopyClick = () => {
         window.navigator.clipboard.writeText(codeString).then(r => {
             console.log(r)
@@ -32,22 +30,23 @@ export function CodeExample() {
     };
 
     return (
-        <div className={'bg-yellow-700 h-fit rounded-xl text-left'}>
-            <div className={'bg-green-300 h-[50px] rounded-t-xl flex items-center px-2'}>
-                <p className={'text-left text-gray-800 w-fit text-2xl'}>
-                    Example Form
-                </p>
-                <button className={`bg-gray-700 size-9 ml-auto rounded-md duration-300 ${animCopy&&'w-32'}`}
-                        onClick={handleCopyClick}>
+        <div className="text-left p-6">
+            <div className="bg-teal-500 text-white rounded-t-xl flex items-center justify-between px-4 py-2">
+                <p className="text-lg font-semibold">Example Form</p>
+                <button
+                    className={`bg-gray-700 text-white py-2 px-4 rounded-md hover:bg-gray-600 focus:outline-none transition-all duration-300 transform ${animCopy ? 'w-40' : 'w-20'}`}
+                    onClick={handleCopyClick}
+                >
+                    {animCopy ? 'Copied!' : 'Copy'}
                 </button>
             </div>
-            <Highlight className={'rounded-b-xl'}>
+            <Highlight className="rounded-b-xl">
                 <pre>
                     <code>
-                    {codeString}
+                        {codeString}
                     </code>
                 </pre>
             </Highlight>
         </div>
-    )
+    );
 }
