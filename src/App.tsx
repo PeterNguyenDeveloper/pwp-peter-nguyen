@@ -2,6 +2,7 @@ import './App.css';
 import { CodeExample } from "./CodeExample.tsx";
 import { InfoBoxGroup } from "./InfoBoxGroup.tsx";
 import { ExampleContactForm } from "./ExampleContactForm.tsx";
+import {RedirectFormExample} from "./RedirectFormExample.tsx";
 
 export default function App() {
     return (
@@ -23,11 +24,15 @@ export default function App() {
                     <p className="mt-2 mb-4 text-lg text-teal-100">Replace "youremail@gmail.com" with your email</p>
                     <CodeExample/>
                     <h2 className="mt-4 text-3xl font-semibold text-white">Step 2.</h2>
-                    <p className="mt-2 mb-4 text-lg text-teal-100">Make sure each input attribute has a name="unique_name" attribute</p>
+                    <p className="mt-2 mb-4 text-lg text-teal-100">Make sure each input attribute has a
+                        name="unique_name" attribute</p>
                     <CodeExample/>
                     <h2 className="mt-4 text-3xl font-semibold text-white">That's it!</h2>
                     <p className="mt-2 mb-4 text-lg text-teal-100">You will now receive emails</p>
                     <ExampleContactForm/>
+                    <h2 className="mt-4 text-3xl font-semibold text-white">Example without redirect</h2>
+                    <p className="mt-2 mb-4 text-lg text-teal-100">Different Behavior</p>
+                    <RedirectFormExample/>
                     <h2 className="mt-4 text-3xl font-semibold text-white">FAQ</h2>
                     <p className="mt-2 mb-4 text-lg text-teal-100">Common questions</p>
                     <InfoBoxGroup/>
