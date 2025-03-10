@@ -30,7 +30,7 @@ export function CodeExample() {
     };
 
     return (
-        <div className="text-left p-6">
+        <div className="text-left shadow-lg bg-white rounded-xl">
             <div className="bg-teal-500 text-white rounded-t-xl flex items-center justify-between px-4 py-2">
                 <p className="text-lg font-semibold">Example Form</p>
                 <button
