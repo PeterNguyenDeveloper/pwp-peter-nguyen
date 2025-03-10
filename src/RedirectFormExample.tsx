@@ -20,7 +20,6 @@ export function RedirectFormExample(): JSX.Element {
             email,
             message
         };
-        console.log(email)
         fetch(`https://onelineforms.com/${email}`, {
             method: 'POST',
             headers: {
