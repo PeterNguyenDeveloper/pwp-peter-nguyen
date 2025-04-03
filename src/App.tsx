@@ -3,6 +3,7 @@ import { CodeExample } from "./CodeExample.tsx";
 import { InfoBoxGroup } from "./InfoBoxGroup.tsx";
 import { ExampleContactForm } from "./ExampleContactForm.tsx";
 import {RedirectFormExample} from "./RedirectFormExample.tsx";
+import ChatGPTWidget from "./ChatGPTWidget.tsx";
 
 export default function App() {
     return (
@@ -10,11 +11,11 @@ export default function App() {
             <section className="mx-auto max-w-[1000px]">
                 <section className="bg-teal-600 text-center py-16 px-4 sm:px-8 rounded-lg shadow-xl">
                     <div className="flex justify-center items-center space-x-4">
-                        <img
+                       {/* <img
                             src="/react.svg"
                             alt="Company Icon"
                             className="w-12 h-12"
-                        />
+                        />*/}
                         <h1 className="text-4xl font-bold text-white">OneLineForms</h1>
                     </div>
                     <h2 className="mt-4 text-3xl font-semibold text-white">Submit your HTML forms</h2>
@@ -36,6 +37,7 @@ export default function App() {
                     <h2 className="mt-4 text-3xl font-semibold text-white">FAQ</h2>
                     <p className="mt-2 mb-4 text-lg text-teal-100">Common questions</p>
                     <InfoBoxGroup/>
+{/*                    <ChatGPTWidget/>*/}
                 </section>
             </section>
         </section>
