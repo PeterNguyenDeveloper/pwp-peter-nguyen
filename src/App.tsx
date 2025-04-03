@@ -3,7 +3,6 @@ import { CodeExample } from "./CodeExample.tsx";
 import { InfoBoxGroup } from "./InfoBoxGroup.tsx";
 import { ExampleContactForm } from "./ExampleContactForm.tsx";
 import {RedirectFormExample} from "./RedirectFormExample.tsx";
-import ChatGPTWidget from "./ChatGPTWidget.tsx";
 
 export default function App() {
     return (
